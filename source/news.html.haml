@@ -63,204 +63,211 @@ per_page: 12
     %li= link_to "Check-In", autoprefix(festbase, "acreditaciones")
     %li
       = link_to "Preliminaries", autoprefix(festbase, "preliminares")
-      %ul
-        %li
-          = link_to "Chile Valparaiso", "http://www.municipalidaddevalparaiso.cl"
-          Feb 3-11 (w6)
-        %li
-          = link_to "USA San Francisco", "http://tangousachampionship.com/"
-          Mar 29-Apr 1 (w13)
-          %br
-          Tango Pista
-          %ol
-            %li
-            %li
-            %li
-          Tango Escenario
-          %ol
-            %li
-            %li
-            %li
-        %li
-          = link_to "Russia Moscow", "http://tangoturnir.ru/"
-          Mar 31 (w13)
-          %br
-          Tango Pista
-          %ol
-            %li
-            %li
-            %li
-          Tango Escenario
-          %ol
-            %li
-            %li
-            %li
-        %li
-          = link_to "UK London", "http://www.uktangofestival.com/"
-          Apr 6-8 (w14)
-          %br
-          Tango Pista
-          %ol
-            %li
-            %li
-            %li
-          Tango Escenario
-          %ol
-            %li
-            %li
-            %li
-        %li
-          = link_to "Italy Rome", "http://www.eutango.com/"
-          May 3-6 (w18)
-          %br
-          Tango Pista
-          %ol
-            %li
-            %li
-            %li
-          Tango Escenario
-          %ol
-            %li
-            %li
-            %li
-        %li
-          = link_to "Argentinal BsAs", "http://festivales.buenosaires.gob.ar/2018/tangociudad/en"
-          May 9-20 (w19,20)
-          %br
-          Tango Pista Adult
-          %ol
-            %li
-            %li
-            %li
-          Tango Pista Senior
-          %ol
-            %li
-            %li
-            %li
-          Milonga
-          %ol
-            %li
-            %li
-            %li
-          Vals
-          %ol
-            %li
-            %li
-            %li
-          Milongueros del Mundo
-          %ol
-            %li
-            %li
-            %li
-        %li
-          %i
-            = link_to "HK (unofficial)", "http://www.otrotango.com.hk/event/xtreme2018/"
-            May 18-20 (w20)
-          %br
-          Tango Pista
-          %ol
-            %li
-            %li
-            %li
-          Tango Escenario
-          %ol
-            %li
-            %li
-            %li
-        %li
-          %i
-            = link_to "Philippines (unofficial)", ""
-            May ??
-          %br
-          Tango Pista
-          %ol
-            %li
-            %li
-            %li
-        %li
-          = link_to "Colombia Cali", "email"
-          May 25-27 (w21)
-          %br
-          Tango Pista
-          %ol
-            %li
-            %li
-            %li
-          Tango Escenario
-          %ol
-            %li
-            %li
-            %li
-        %li
-          = link_to "Korea Seoul", "http://koreatango.kr/"
-          Jun 2-3 (w22)
-          %br
-          Tango Pista
-          %ol
-            %li
-            %li
-            %li
-          Tango Escenario
-          %ol
-            %li
-            %li
-            %li
-        %li
-          = link_to "China Nanjing", "email"
-          Jun 15-18 (w24)
-          %br
-          Tango Pista
-          %ol
-            %li
-            %li
-            %li
-          Tango Escenario
-          %ol
-            %li
-            %li
-            %li
-        %li
-          = link_to "Japan Tokyo", "http://campeonatoasiatico.com/"
-          Jun 23-24 (w25)
-          %br
-          Tango Pista
-          %ol
-            %li
-            %li
-            %li
-          Tango Escenario
-          %ol
-            %li
-            %li
-            %li
-        %li
-          = link_to "Europe Cervia", "http://www.eutango.com/"
-          Jul 2-8 (w27)
-          %br
-          Tango Pista
-          %ol
-            %li
-            %li
-            %li
-          Tango Escenario
-          %ol
-            %li
-            %li
-            %li
-        %li
-          = link_to "Brazil Rio de Janeiro", "http://preliminartangobrasil.com/"
-          Jul 26-29 (w30)
-          %br
-          Tango Pista
-          %ol
-            %li
-            %li
-            %li
-          Tango Escenario
-          %ol
-            %li
-            %li
-            %li
+      %button.btn.btn-link{"data-toggle"=>"collapse",
+        "data-target"=>"#collapseOne",
+        "aria-expanded"=>"false",
+        "aria-controls"=>"collapseOne"}
+        (See Results)
+
+      #collapseOne.collapse.alert.alert-info
+        %ul.list-unstyled
+          %li
+            = link_to "Chile Valparaiso", "http://www.municipalidaddevalparaiso.cl"
+            Feb 3-11 (w6)
+          %li
+            = link_to "USA San Francisco", "http://tangousachampionship.com/"
+            Mar 29-Apr 1 (w13)
+            %br
+            Tango Pista
+            %ol
+              %li
+              %li
+              %li
+            Tango Escenario
+            %ol
+              %li
+              %li
+              %li
+          %li
+            = link_to "Russia Moscow", "http://tangoturnir.ru/"
+            Mar 31 (w13)
+            %br
+            Tango Pista
+            %ol
+              %li
+              %li
+              %li
+            Tango Escenario
+            %ol
+              %li
+              %li
+              %li
+          %li
+            = link_to "UK London", "http://www.uktangofestival.com/"
+            Apr 6-8 (w14)
+            %br
+            Tango Pista
+            %ol
+              %li
+              %li
+              %li
+            Tango Escenario
+            %ol
+              %li
+              %li
+              %li
+          %li
+            = link_to "Italy Rome", "http://www.eutango.com/"
+            May 3-6 (w18)
+            %br
+            Tango Pista
+            %ol
+              %li
+              %li
+              %li
+            Tango Escenario
+            %ol
+              %li
+              %li
+              %li
+          %li
+            = link_to "Argentinal BsAs", "http://festivales.buenosaires.gob.ar/2018/tangociudad/en"
+            May 9-20 (w19,20)
+            %br
+            Tango Pista Adult
+            %ol
+              %li
+              %li
+              %li
+            Tango Pista Senior
+            %ol
+              %li
+              %li
+              %li
+            Milonga
+            %ol
+              %li
+              %li
+              %li
+            Vals
+            %ol
+              %li
+              %li
+              %li
+            Milongueros del Mundo
+            %ol
+              %li
+              %li
+              %li
+          %li
+            %i
+              = link_to "HK (unofficial)", "http://www.otrotango.com.hk/event/xtreme2018/"
+              May 18-20 (w20)
+            %br
+            Tango Pista
+            %ol
+              %li
+              %li
+              %li
+            Tango Escenario
+            %ol
+              %li
+              %li
+              %li
+          %li
+            %i
+              = link_to "Philippines (unofficial)", ""
+              May ??
+            %br
+            Tango Pista
+            %ol
+              %li
+              %li
+              %li
+          %li
+            = link_to "Colombia Cali", "email"
+            May 25-27 (w21)
+            %br
+            Tango Pista
+            %ol
+              %li
+              %li
+              %li
+            Tango Escenario
+            %ol
+              %li
+              %li
+              %li
+          %li
+            = link_to "Korea Seoul", "http://koreatango.kr/"
+            Jun 2-3 (w22)
+            %br
+            Tango Pista
+            %ol
+              %li
+              %li
+              %li
+            Tango Escenario
+            %ol
+              %li
+              %li
+              %li
+          %li
+            = link_to "China Nanjing", "email"
+            Jun 15-18 (w24)
+            %br
+            Tango Pista
+            %ol
+              %li
+              %li
+              %li
+            Tango Escenario
+            %ol
+              %li
+              %li
+              %li
+          %li
+            = link_to "Japan Tokyo", "http://campeonatoasiatico.com/"
+            Jun 23-24 (w25)
+            %br
+            Tango Pista
+            %ol
+              %li
+              %li
+              %li
+            Tango Escenario
+            %ol
+              %li
+              %li
+              %li
+          %li
+            = link_to "Europe Cervia", "http://www.eutango.com/"
+            Jul 2-8 (w27)
+            %br
+            Tango Pista
+            %ol
+              %li
+              %li
+              %li
+            Tango Escenario
+            %ol
+              %li
+              %li
+              %li
+          %li
+            = link_to "Brazil Rio de Janeiro", "http://preliminartangobrasil.com/"
+            Jul 26-29 (w30)
+            %br
+            Tango Pista
+            %ol
+              %li
+              %li
+              %li
+            Tango Escenario
+            %ol
+              %li
+              %li
+              %li
 
     %li
       = link_to "Tango Pista", autoprefix(festbase, "tangopista")

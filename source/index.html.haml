@@ -4,9 +4,9 @@ pageclass: home
 
 ---
 -# stylesheet_link_tag "old/site"
-.welcome
+.welcome.container
   .logo
-    = image_tag "https://raw.githubusercontent.com/tangodata/mundialarchives/master/badges/tango_mundial13.gif"
+    %img.img-fluid{:src=>"https://raw.githubusercontent.com/tangodata/mundialarchives/master/badges/tango_mundial13.gif"}
   %h1
     TangoBA Festival y Mundial
     %br
@@ -15,6 +15,7 @@ pageclass: home
     %i
       600,000 spectators
       2,000 artistes
+      %br
       8 venues
       150 shows
 

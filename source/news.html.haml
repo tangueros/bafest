@@ -1,0 +1,119 @@
+---
+title: News
+pageclass: news
+
+pageable: true
+per_page: 12
+---
+- festbase = "http://festivales.buenosaires.gob.ar/2016/tangofestivalymundial/en/"
+.container
+
+  %h1 Main Festival BA
+
+  %h3 Festival Info
+  %p Date: 2018-08-09 to 2018-08-22
+  %p Edition: 16th
+  %ul
+    %li= link_to "TangoBA 2018", autoprefix(festbase, "home")
+    %li
+      = link_to "About the Festival", autoprefix(festbase, "festival")
+      %ul
+        %li= link_to "Artistic Director", autoprefix(festbase, "directorartistico")
+        %li= link_to "Authority", autoprefix(festbase, "autoridades")
+        %li= link_to "Staff", autoprefix(festbase, "staff")
+        %li= link_to "Sponsors", autoprefix(festbase, "auspiciantes")
+    %li= link_to "Send Postcards", autoprefix(festbase, "postales")
+    %li= link_to "Download PDF Catalog", ""
+
+  %h3 Visitors
+  %ul
+    %li= link_to "Visitor Tickets", autoprefix(festbase, "entradas")
+    %li= link_to "World Cup Tickets", autoprefix(festbase, "entradas")
+    %li
+      All the Events (9-aug to 22-aug)
+      %ul
+        %li= link_to "By Venue", autoprefix(festbase, "sedes")
+        %li= link_to "By Barrio", autoprefix(festbase, "barrios")
+        %li= link_to "By Section", autoprefix(festbase, "secciones")
+        %li= link_to "By Activity", autoprefix(festbase, "programacion/seccion/")
+        %li= link_to "Day By Day", autoprefix(festbase, "programacion/diaxdia/")
+    %li= link_to "Product Fair", autoprefix(festbase, "")
+    %li= link_to "Unofficial activities", ""
+    %li= link_to "Tango Festival Shop Online", ""
+
+
+
+  %h3 News and Press
+  %ul
+    %li= link_to "News", autoprefix(festbase, "noticias")
+    %li= link_to "Photos", autoprefix(festbase, "fotos")
+    %li= link_to "Videos", autoprefix(festbase, "videos")
+    %li= link_to "Press Contact", autoprefix(festbase, "prensa/contactoprensa")
+    %li= link_to "Press Logos", ""
+    %li= link_to "Live TV", "http://www.buenosaires.gob.ar/canaldelaciudad"
+    %li= link_to "Live Radio", "http://www.buenosaires.gob.ar/la2x4"
+    %li= link_to "Tangoba Festival Channel FB", "https://www.facebook.com/tangobafestival/"
+
+
+  %h3 Dance World Cup
+  %ul
+    %li= link_to "Dance World Cup", autoprefix(festbase, "mundial")
+    %li= link_to "Inscription", ""
+    %li= link_to "Rules", autoprefix(festbase, "reglamento")
+    %li= link_to "Check-In", autoprefix(festbase, "acreditaciones")
+    %li
+      = link_to "Preliminaries", autoprefix(festbase, "preliminares")
+      %ul
+        %li= link_to "Argentinal BsAs", "http://festivales.buenosaires.gob.ar/2017/tangociudad/en"
+        %li= link_to "Colombia Cali", "email"
+        %li= link_to "Brazil Rio de Janeiro", "http://preliminartangobrasil.com/"
+        %li= link_to "USA San Francisco", "http://tangousachampionship.com/"
+        %li= link_to "UK London", "http://www.uktangofestival.com/"
+        %li= link_to "Russia Moscow", "http://tangoturnir.ru/"
+        %li= link_to "Italy Rome", "http://www.eutango.com/"
+        %li= link_to "Europe Cervia", "http://www.eutango.com/"
+        %li= link_to "Japan Tokyo", "http://campeonatoasiatico.com/"
+        %li= link_to "Korea Seoul", "http://koreatango.kr/"
+        %li= link_to "China Nanjing", "email"
+    %li
+      = link_to "Tango Pista", autoprefix(festbase, "tangopista")
+      %ul
+        %li= link_to "Classification", ""
+        %li= link_to "Semi-Finals", ""
+        %li= link_to "Finals", ""
+    %li
+      = link_to "Stage Tango", autoprefix(festbase, "tangoescenario")
+      %ul
+        %li= link_to "Classification", ""
+        %li= link_to "Semi-Finals", ""
+        %li= link_to "Finals", ""
+    %li
+      Facebook Livestreams
+      %ul
+        %li= link_to "Canal Ciudad", "https://www.facebook.com/CanalCiudadBA/"
+        %li= link_to "Aires de Milonga", "https://www.facebook.com/airesdemilonga/"
+        %li= link_to "2xTango", "https://www.facebook.com/2xtango/"
+
+  %h3 Extras
+  %ul
+    %li= link_to "Previous Editions", "http://festivales.buenosaires.gob.ar/2018/tangofestivalymundial/en/anteriores"
+    %li= link_to "City Championship - May 9-20", "http://festivales.buenosaires.gob.ar/2017/tangociudad/en"
+    %li= link_to "mundial (site)", "https://mundial.tejastango.com"
+
+  %h3 Social Media
+  %ul
+    %li= link_to "Instagram search", "https://www.instagram.com/explore/tags/tangoba/"
+    %li= link_to "Twitter search", "https://twitter.com/search?q=tango%20mundial%20tangoba&src=typd"
+    %li= link_to "Facebook search", "https://www.facebook.com/search/top/?q=tango%20mundial%20tangoba&filters_rp_creation_time=%7B%22name%22%3A%22creation_time%22%2C%22args%22%3A%22%7B%5C%22start_year%5C%22%3A%5C%222018%5C%22%2C%5C%22start_month%5C%22%3A%5C%222018-01%5C%22%2C%5C%22end_year%5C%22%3A%5C%222018%5C%22%2C%5C%22end_month%5C%22%3A%5C%222018-12%5C%22%7D%22%7D"
+    %li= link_to "Youtube search", "https://www.youtube.com/results?search_query=tango+mundial+tangoba&sp=CAISAggF"
+    %li= link_to "Google search", "https://www.google.com.sg/search?q=tango+tangoba+mundial&num=100&newwindow=1&tbs=qdr:m,sbd:1&source=lnt&sa=X&ved=0ahUKEwjIirqx1o7aAhXBL48KHboFB_UQpwUIHw&biw=1211&bih=699"
+    %li= link_to "Google alert rss", "https://news.google.com/news/rss/search/section/q/tango%20mundial%20festival/tango%20mundial%20festival?hl=en-SG&gl=SG&ned=en_sg"
+
+
+  %h3 Related
+  %p
+    https://www.facebook.com/tangonoclausura/
+    https://www.facebook.com/leyfomentomilonga/
+    https://www.facebook.com/AOM.AsociacionDeOrganizadoresDeMilongas/
+    AMBCTA - GRUPO OFICIAL
+    https://www.facebook.com/groups/1582661735391288/
